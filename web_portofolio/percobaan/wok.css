@@ -1,0 +1,125 @@
+body {
+    background-color: #333;
+}
+
+.menu-bar {
+    position: relative;
+}
+
+a{
+    display: block;
+}
+.nav-item:nth-child(even) a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 60px;
+    height: 3px;
+    background-color: black;
+    transform: scale(0);
+    transform-origin: bottom right;
+    transition: transform .3s ease-out;
+}
+
+.nav-item:nth-child(even) a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* CSS Home */
+.ukuran-foto {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: 0 -50px;
+    background-image: url(img/foto_model.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Flex-wrap to make icons responsive */
+.group-icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ukuran-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #ffff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.icon-html img, .icon-css img, .icon-js img, .icon-bootstrap img {
+    width: 40px;
+    filter: grayscale(100%);
+    transition: .3s ease;
+}
+
+.icon-html, .dll {
+    margin-top: -50px;
+    animation: naikturun 1s ease-out infinite;
+}
+
+.icon-css, .icon-bootstrap {
+    animation: updown 1s ease-out infinite;
+}
+
+.icon-js {
+    animation: upanddown 1s ease-out infinite;
+}
+
+.icon-html img:hover, .icon-css img:hover, .icon-js img:hover, .icon-bootstrap img:hover {
+    filter: grayscale(0%);
+}
+
+/* Animation keyframes */
+@keyframes naikturun {
+    0% {
+        margin-top: -50px;
+    }
+    50% {
+        margin-top: -40px;
+    }
+    100% {
+        margin-top: -50px;
+    }
+}
+
+@keyframes updown {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: -10px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes upanddown {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 10px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+/* Media Queries (if needed for smaller devices) */
+@media (max-width: 576px) {
+    .ukuran-foto {
+        width: 250px;
+        height: 250px;
+    }
+}

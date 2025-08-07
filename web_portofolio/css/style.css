@@ -1,0 +1,321 @@
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* html, body {
+   overflow-x: hidden;
+} */
+
+
+/* start nav */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+nav.sticky-navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030; /* agar di atas elemen lain */
+  background-color: #f8f9fa; /* warna navbar, bisa disesuaikan */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* bayangan bawah */
+}
+
+.grup-nav ul li a {
+    font-weight: 500;
+}
+.grup-nav ul li a:hover {
+    color: black;
+}
+/* end nav */
+
+/* css page home */
+
+.btn-contact a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.ukuran-foto {
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: 0 -50px;
+    background-image: url(../img/foto-Dwi-Rama.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 2px solid rgb(238, 236, 236);
+    box-shadow: 5px 3px 10px rgba(199, 199, 199, 0.5);
+}
+
+.foto {
+    width: 400px;
+}
+
+.group-icon {
+    width: 500px;
+    margin-left: -5rem;
+    padding-bottom: 17px;
+}
+
+.ukuran-icon {
+    width: 65px;
+    height: 65px;
+    background-color: #ffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-html img, .icon-css img, .icon-js img, .icon-bootstrap img {
+    width: 35px;
+    filter: grayscale(100%);
+    transition: .3s ease;
+}
+
+.icon-html, .dll {
+    margin-top: -50px;
+    /* animation: naikturun 1s ease-out infinite; */
+}
+/* 
+.icon-css, .icon-bootstrap {
+    animation: updown 1s ease-out infinite;
+}
+
+.icon-js {
+    animation: upanddown 1s ease-out infinite;
+}
+*/
+
+.icon-html img:hover {
+    filter: grayscale(0%);
+}
+.icon-css img:hover {
+    filter: grayscale(0%);
+}
+.icon-js img:hover {
+    filter: grayscale(0%);
+}
+.icon-bootstrap img:hover {
+    filter: grayscale(0%);
+}
+/* end css home */
+
+/* CSS Page About */
+.about {
+    background-color: #dddddd;
+    padding-bottom: 45px;
+}
+
+.judul-about {
+    padding-top: 55px;
+    padding-bottom: 25px;
+}
+
+.foto-diri {
+    background-image: url(../img/foto-Dwi-Rama.jpeg);
+    width: 300px;
+    height: 420px;
+    background-position: 0 -70px;
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 5px 6px 5px 4px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+    margin-top: 10px;
+}
+
+.tentangku p{
+    margin-top: 10px;
+    text-align: justify;
+}
+/* End CSS Page About */
+
+/* CSS Page Project */
+.aos {
+    background-color: #fff;
+}
+
+.project-1, .project-2, .project-3, .project-4 {
+    background-color: #fff;
+    width: 370px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(1000);
+    margin-inline: 10px;
+    margin-block: 10px;
+}
+
+.project-1 h4, .project-2 h4, .project-3 h4, .project-4 h4 {
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.project-1 p, .project-2 p, .project-3 p, .project-4 p {
+    text-align: justify;
+}
+
+.project-1 h4, p {
+    transform: translateZ(30px);
+}
+
+.project-1 img, .project-2 img, .project-3 img, .project-4 img {
+    transform: translateZ(30px);
+    width: 330px;
+    margin-block: 8px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 3px rgba(0, 0, 0, .3);
+}
+/* End Page Project */
+
+/* star page message */
+.inp {
+    width:50em;
+}
+
+.inp input, .textarea textarea{
+    border-radius: 20px;
+}
+
+.textarea{
+    width: 50em;
+    height: 20vh;
+}
+
+.button-send button {
+    margin-left: 150px;
+}
+/* end page message */
+
+/* start page contact me */
+.logo {
+    margin-top: 45px;
+}
+.isi-colom-1 h3{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.isi-colom-1 p {
+    text-align: justify;
+}
+
+.isi-colom-3 h4 {
+    margin-top: 48px;
+}
+
+a .icon-wa:hover, a .icon-ig:hover, a .icon-fb:hover, a .icon-twitter:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+a .icon-wa, a .icon-ig, a .icon-fb, a .icon-twitter {
+    transition: .3s;
+}
+
+.icon-wa img, .icon-ig img, .icon-fb img, .icon-twitter img {
+    width: 37px;
+}
+
+.isi-colom-2 ul li {
+    list-style: none;
+}
+.isi-colom-2 ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .3s;
+    color: white;
+}
+.isi-colom-2 ul li a:hover {
+    color: rgb(11, 98, 248);
+}
+
+.group-lokasi .icon-lokasi {
+    margin-top: -25px;
+}
+
+.group-telp, .group-email, .group-lokasi, .group-instagram {
+    display: flex;
+    align-items: center;
+}
+
+.group-telp .icon-telp, .group-email .icon-email, .group-lokasi .icon-lokasi, .group-instagram .icon-instagram{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* end page contact me */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes naikturun {
+    0% {
+        margin-top: -50px;
+    }
+    50% {
+        margin-top: -40px;
+    }
+    100% {
+        margin-top: -50px;
+    }
+}
+
+@keyframes updown {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: -10px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes upanddown {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 10px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .kanan {
+      display: block;
+      margin: 0 auto;
+      /* Jika gambar tidak berada di dalam container flex atau grid */
+    }
+  }
+
+/* end home */
