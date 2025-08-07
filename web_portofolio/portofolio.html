@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <!-- Halaman Navigasi -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand  ms-5">Dwi Rama Pratama</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse grup-nav" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5   ">
+          <li class="nav-item me-3">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Halaman Navigasi -->
+
+  <!-- Halaman Home -->
+  <div class="container-fluid mt-3" id="home">
+    <div class="container d-lg-flex justify-content-evenly position-md-relative">
+      <div class="kiri text-light mt-5 col-lg-6 col-md-12 text-lg-start text-center ms-lg-5">
+        <h1><span class="text-primary">Selamat Datang</span> di <br> Web Portofolio <br> Dwi Rama P.</h1>
+        <p class="fs-5">Mengembangkan Website yang <br> Memberikan Hasil Nyata.</p>
+        <a href="https://wa.me/6282216087448" target="_blank"><button
+            class="btn btn-primary px-5 py-2 rounded-pill btn-contact">Contact Me</button></a>
+      </div>
+
+      <div class="col-md-4 d-lg-none"></div>
+      <div class="kanan mt-2 col-lg-6 col-md-6">
+        <div class="ukuran-foto mt-md-3" data-aos="zoom-in" data-aos-duration="1000"></div>
+        <div class="group-icon d-flex justify-content-between justify-content-md-around mt-3 mt-md-3">
+          <div class="ukuran-icon icon-html d-flex align-items-center justify-content-center" data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src="img/html.png" alt="html">
+          </div>
+          <div class="ukuran-icon icon-css d-flex align-items-center justify-content-center" data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src="img/css-3.png" alt="css">
+          </div>
+          <div class="ukuran-icon icon-js d-flex align-items-center justify-content-center" data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src="img/js.png" alt="javascript">
+          </div>
+          <div class="ukuran-icon icon-bootstrap d-flex align-items-center justify-content-center" data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src="img/Bootstrap_logo.svg.png" alt="bootstrap">
+          </div>
+          <div class="ukuran-icon dll"></div>
+        </div>
+        <div class="col-md-2 d-lg-none"></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Halaman Home -->
+
+  <!-- Halaman About -->
+  <div class="container-fluid mt-5 about" id="about">
+    <div class="container">
+      <div class="judul-about text-center">
+        <h1>About Me</h1>
+      </div>
+
+      <div class="container d-lg-flex">
+        <div class="col-lg-1 d-md-none"></div>
+        <div class="col-lg-5 col-md-12">
+          <div class="foto-diri ms-5">
+            <!-- <img class="ms-5" src="img/foto-Dwi-Rama.jpeg" alt="foto model"> -->
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-12 ms-5 tentangku">
+          <p class="fs-5">"Saya adalah seorang Web Developer dengan pengalaman dalam membangun dan mengoptimalkan situs
+            web yang
+            responsif dan user-friendly. Berfokus pada pengembangan frontend dan backend, saya menguasai HTML, CSS,
+            JavaScript, serta framework seperti React dan Node.js. Dengan semangat untuk inovasi dan detail, saya
+            berkomitmen untuk menciptakan solusi web yang tidak hanya fungsional, tetapi juga estetis dan efisien."</p>
+          <div class="data-diri">
+            <a href="#">
+              <button type="button" class="btn btn-primary ps-4 pe-4 pt-2 pb-2">
+                Lihat Selengkapnya
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-1 d-md-none"></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Halaman About -->
+
+  <!-- Halaman Project -->
+  <div class="container-fluid p-4" id="project">
+    <div class="container">
+      <div class="judul-project mt-2">
+        <h1 class="text-light text-center">My Project</h1>
+      </div>
+      <div class="foto-project d-lg-flex flex-wrap justify-content-center">
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <div class="project-1" data-tilt>
+            <h4>Form Reservasi Kafe</h4>
+            <img src="img/Screenshot (183).png" alt="web-01">
+            <p>
+              Website toko bakery dengan tampilan katalog produk dan halaman reservasi. Dibuat menggunakan Bootstrap dan
+              layout grid modern.
+            </p>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-duration="1000">
+          <div class="project-2" data-tilt>
+            <h4>Website Freelance</h4>
+            <img src="img/Screenshot (134).png" alt="web-02">
+            <p>
+              Landing page sederhana untuk mempromosikan jasa freelance secara online. Menampilkan profil, layanan, dan
+              portofolio, dibangun dengan HTML, CSS, dan Bootstrap.
+            </p>
+          </div>
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <div class="project-3" data-tilt>
+            <h4>Website Toko Bakery</h4>
+            <img src="img/Screenshot (181).png" alt="web-03">
+            <p>
+              Website ini dibuat untuk menampilkan daftar produk kue dari sebuah toko bakery secara online. Terdapat
+              halaman beranda, katalog produk, detail produk, dan informasi kontak toko.
+            </p>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" data-aos-duration="1000">
+          <div class="project-4" data-tilt>
+            <h4>Website UMKM</h4>
+            <img src="img/Screenshot (182).png" alt="web-04">
+            <p>
+              Website ini dirancang untuk membantu pelaku UMKM memasarkan produk mereka secara online. Terdapat halaman
+              beranda, katalog produk, informasi kontak, dan fitur pemesanan sederhana.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="project-lainnya text-end me-5">
+        <a href="#"><button type="button" class="btn btn-primary pt-2 pb-2 ps-4 pe-4 me-5">Lainnya</button></a>
+      </div>
+    </div>
+  </div>
+  <!-- End Halaman Project -->
+
+  <!-- star halaman pesan kesan -->
+  <div class="container-fluid p-4 bg-body-secondary" id="message">
+    <div class="container">
+
+      <div class="judul text-dark text-center mb-4">
+        <h1>Send Me A Message</h1>
+      </div>
+
+      <form onsubmit="sendToWhatsApp(); return false;">
+        <div class="message d-flex justify-content-center flex-wrap">
+          <div class="input-group mb-4 col-lg-8 inp">
+            <input type="text" id="fullname" class="form-control" placeholder="Fullname" aria-label="Fullname"
+              aria-describedby="basic-addon1">
+          </div>
+
+          <div class="input-group mb-4 col-lg-8 inp">
+            <input type="email" id="email" class="form-control" placeholder="Email Address" aria-label="Email Address"
+              aria-describedby="basic-addon1">
+          </div>
+
+          <div class="input-group mb-4 col-lg-8 inp">
+            <input type="tel" id="phone" class="form-control" placeholder="Phone No." aria-label="Phone No."
+              aria-describedby="basic-addon1">
+          </div>
+
+          <div class="input-group textarea col-lg-8">
+            <textarea id="message" class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
+          </div>
+        </div>
+
+        <div class="button-send p-2 mt-1">
+          <a href="https://wa.me/6282216087448" ><button type="button"
+              class="btn btn-primary px-4">Send</button></a>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  </div>
+  <!-- end halaman pesan kesan -->
+
+  <!-- Start  contact-->
+  <div class="container-fulid p-5 text-light" id="contact">
+    <div class="container">
+      <div class="sub-judul text-center">
+        <h2>
+          Contact Me
+        </h2>
+      </div>
+
+      <div class="container d-flex">
+        <div class="col-lg-4">
+          <div class="logo">
+            <h2>Dwi Rama P.</h2>
+          </div>
+
+          <div class="isi-colom-1">
+            <h3>Butuh Website Profesional ?</h3>
+            <p class="text-justify">
+              Saya siap membantu membangun website impian Anda! Hubungi saya melalui formulir di bawah atau email untuk
+              diskusi lebih lanjut.
+            </p>
+            <br>
+
+            <div class="grup-icon-medsos d-flex justify-content-between">
+
+              <a href="https://wa.me/6282216087448" target="_blank">
+                <div class="icon-wa bg-white p-3 rounded-pill">
+                  <img src="img/whatsapp.png" alt="Whatsapp">
+                </div>
+              </a>
+
+              <a href="https://www.instagram.com/p.dwirama/" target="_blank">
+                <div class="icon-ig bg-white p-3 rounded-pill">
+                  <img src="img/instagram-color.png" alt="Instagram">
+                </div>
+              </a>
+
+              <a href="https://www.facebook.com/dwi.r.pratama.129" target="_blank">
+                <div class="icon-fb bg-white p-3 rounded-pill">
+                  <img src="img/facebook (1).png" alt="Facebook">
+                </div>
+              </a>
+
+              <a href="mailto:dwiramapratama215@gmail.com">
+                <div class="icon-twitter bg-white p-3 rounded-pill">
+                  <img src="img/Logo-Email-berwarna.png" alt="Twitter">
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="isi-colom-2">
+            <h4 class="text-center mt-5">Links</h4>
+            <div class="list-link justify-content-center d-flex">
+              <ul class="ms-4 mt-4">
+                <li class="mt-2"><a href="#home" class="me-5">Home</a></li>
+                <li class="mt-2"><a href="#about" class="me-3">About Me</a></li>
+                <li class="mt-2"><a href="#project" class="me-3">My Project</a></li>
+                <li class="mt-2"><a href="#message" class="me-5">Message</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="isi-colom-3">
+            <h4>Contact Me</h4>
+            <div class="group-telp mb-3 mt-4">
+              <div class="icon-telp bg-white rounded-pill py-2">
+                <img src="img/telephone.png" alt="telephone">
+              </div>
+              <div class="isi-telp ms-4">
+                <span>081294936445</span>
+              </div>
+            </div>
+
+            <div class="group-email mb-3">
+              <div class="icon-email bg-white rounded-pill py-2">
+                <img src="img/email.png" alt="Email">
+              </div>
+              <div class="isi-email ms-4">
+                <span>dwiramapratama@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="group-instagram mb-3">
+              <div class="icon-instagram bg-white rounded-pill py-2">
+                <img src="img/instagram-black.png" alt="Instagram">
+              </div>
+              <div class="isi-instagram ms-4">
+                <span>p.dwirama</span>
+              </div>
+            </div>
+
+            <div class="group-lokasi">
+              <div class="icon-lokasi bg-white rounded-pill py-2 px-2">
+                <img src="img/location (1).png" alt="Alamat">
+              </div>
+              <div class="isi-alamat ms-4">
+                <span>Pegantungan Lapangan Cokalt, RT 008 / RW 007, Kecamatan Jombang, Keluarahan Jombang Wetan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end contact -->
+
+  <!-- start footer -->
+  <div class="container-fluid bg-body-secondary py-2">
+    <div class="container text-dark">
+      <h5 class="text-center mt-1"><strong>2024 Dwi Rama P.</strong></h5>
+    </div>
+  </div>
+  <!-- end footer -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="portofolio.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="vanilla-tilt.min.js"></script>
+</body>
+
+</html>
